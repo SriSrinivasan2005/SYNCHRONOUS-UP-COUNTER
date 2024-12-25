@@ -10,7 +10,7 @@ To implement 4 bit synchronous up counter and validate functionality.
 
 Quartus prime
 
-
+### **THEORY:**
 ### **4 BIT SYNCHRONOUS UP COUNTER**
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
