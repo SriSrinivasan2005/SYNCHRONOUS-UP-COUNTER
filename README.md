@@ -1,16 +1,17 @@
-### SYNCHRONOUS-UP-COUNTER
+### NAME: SRI SRINIVASAN K
+### REG NO: 24900578
+### EXP NO 11: SYNCHRONOUS UP COUNTER
 
-**AIM:**
+### **AIM:**
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-**SOFTWARE REQUIRED:**
+### **SOFTWARE REQUIRED:**
 
 Quartus prime
 
-**THEORY**
 
-**4 bit synchronous UP Counter**
+### **4 BIT SYNCHRONOUS UP COUNTER**
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
@@ -26,21 +27,30 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+### **PROCEDURE**
+1.Initialize the shift register to a known state (e.g., all zeros).
 
-/* write all the steps invloved */
+2.Input a bit serially into the shift register.
 
-**PROGRAM**
+3.Shift the contents of the register one position to the right (or left).
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+4.Output the shifted bit from the last stage of the register.
 
-Developed by: RegisterNumber:
-*/
+5.Repeat steps 2-4 for each bit you want to input and shift.
 
-**RTL LOGIC UP COUNTER**
 
-**TIMING DIAGRAM FOR IP COUNTER**
+### **PROGRAM**
 
-**TRUTH TABLE**
+![Screenshot 2024-12-25 201539](https://github.com/user-attachments/assets/91e2247d-02af-4528-8cae-61912c525983)
 
-**RESULTS**
+### **RTL LOGIC UP COUNTER**
+![Screenshot 2024-12-25 201524](https://github.com/user-attachments/assets/ecd3c834-d13e-4b75-9d35-dd74cae75a82)
+
+### **TIMING DIAGRAM FOR IP COUNTER**
+![UP COUNTER](https://github.com/user-attachments/assets/2a95ca7c-536c-412b-9e6d-41e2abb4718b)
+
+### **TRUTH TABLE**
+![UP COunter tt](https://github.com/user-attachments/assets/a9330d87-ae05-42c7-a635-a7f49c91101a)
+
+### **RESULTS**
+THE IMPLEMENTATION OF SYNCHRONOUS-UP-COUNTER IS TESTED AND VERIFIED.
