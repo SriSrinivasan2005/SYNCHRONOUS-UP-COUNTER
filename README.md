@@ -41,7 +41,6 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 ### **PROGRAM**
 
-![Screenshot 2024-12-25 201539](https://github.com/user-attachments/assets/91e2247d-02af-4528-8cae-61912c525983)
 
 ### **RTL LOGIC UP COUNTER**
 ![Screenshot 2024-12-25 201524](https://github.com/user-attachments/assets/ecd3c834-d13e-4b75-9d35-dd74cae75a82)
