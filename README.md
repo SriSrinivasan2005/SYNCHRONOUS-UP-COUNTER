@@ -1,6 +1,6 @@
 ### NAME: SRI SRINIVASAN K
 ### REG NO: 24900578
-### EXP NO 11: SYNCHRONOUS UP COUNTER
+### EXP NO 7: IMPLEMENTATION OF SYNCHRONOUS UP COUNTER USING VERILOG HDL CODE
 
 ### **AIM:**
 
@@ -40,10 +40,12 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 
 ### **PROGRAM**
+![Screenshot 2024-12-31 203742](https://github.com/user-attachments/assets/17e6e95c-f071-4821-bc22-bc339ce2356c)
 
 
 ### **RTL LOGIC UP COUNTER**
-![Screenshot 2024-12-25 201524](https://github.com/user-attachments/assets/ecd3c834-d13e-4b75-9d35-dd74cae75a82)
+![Screenshot 2024-12-31 203729](https://github.com/user-attachments/assets/ce85f576-7c57-408e-8f2e-33194d4282db)
+
 
 ### **TIMING DIAGRAM FOR IP COUNTER**
 ![UP COUNTER](https://github.com/user-attachments/assets/2a95ca7c-536c-412b-9e6d-41e2abb4718b)
